@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo img {
+    max-width: 100px;
+    max-height: 75px;
+    width: auto;
+    height: auto;
+    margin-right: 30px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #FFE7B6;
+    height: 10vh;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 17px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li a:hover {
+    color: tomato;
+}
+
+.corpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    background: linear-gradient(90deg, rgba(250, 135, 8, 1) 1%, rgba(250, 135, 8, 0.7875525210084033) 89%);
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+.descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background: #FFE7B6;
+    margin: 150px 0px 100px 150px;
+    border-radius: 10px;
+}
+
+.descricao h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 60px 30px;
+    text-align: justify;
+}
